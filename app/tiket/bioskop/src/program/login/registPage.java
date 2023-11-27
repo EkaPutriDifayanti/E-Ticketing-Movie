@@ -83,6 +83,7 @@ public class registPage extends JDialog{
         final String Password = "";
 
         try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Connection connection = DriverManager.getConnection(url,username,Password);
 
             Statement statement = connection.createStatement();
