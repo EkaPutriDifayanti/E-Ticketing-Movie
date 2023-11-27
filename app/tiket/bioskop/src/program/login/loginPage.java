@@ -4,9 +4,10 @@ import javax.swing.*;
 
 public class loginPage {
     private JPanel tfLoginpage;
-    private JTextField textField1;
-    private JButton loginButton;
-    private JPasswordField passwordField1;
+    private JTextField tfEmail;
+    private JButton btnmasuk;
+    private JPasswordField pfPassword;
+    private JButton btndaftar;
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
