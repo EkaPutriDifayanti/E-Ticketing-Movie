@@ -1,4 +1,4 @@
-package app.tiket.bioskop.src.program;
+package app.tiket.bioskop.src.program.login;
 
 public class User {
     public String name;

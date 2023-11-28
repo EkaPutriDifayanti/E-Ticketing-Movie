@@ -1,7 +1,5 @@
 package app.tiket.bioskop.src.program.login;
 
-import app.tiket.bioskop.src.program.User;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -25,6 +23,7 @@ public class registPage extends JDialog{
         setTitle("Buat Akun baru");
         setContentPane(registpanel);
         setMinimumSize(new Dimension(450,474));
+        //setMaximumSize(new Dimension(720,1080));
         setModal(true);
         setLocationRelativeTo(parent);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
@@ -122,4 +121,6 @@ public class registPage extends JDialog{
         }
 
     }
+
+
 }
