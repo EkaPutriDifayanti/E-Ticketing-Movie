@@ -68,7 +68,7 @@ public class loginPage extends JDialog {
     private User getAuthenticatedUser(String email, String password) {
         User user = null;
 
-        final String url = "jdbc:mysql://localhost:3307/e-tiket_bioskop";
+        final String url = "jdbc:mysql://localhost:3306/e-tiket_bioskop";
         final String username = "root";
         final String Password = "";
 
