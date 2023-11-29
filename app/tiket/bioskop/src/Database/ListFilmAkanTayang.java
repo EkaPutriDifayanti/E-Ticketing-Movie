@@ -4,13 +4,13 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-public class ListFilmSedangTayang {
+public class ListFilmAkanTayang {
     public static void main(String[] args) throws Exception {
         OkHttpClient client = ApiRequestUtil.getClient();
         String apiKey = ApiRequestUtil.getApiKey();
 
         Request request = new Request.Builder()
-                .url("https://api.themoviedb.org/3/movie/now_playing?include_adult=false&language=en-US&page=1&api_key=" + apiKey)
+                .url("https://api.themoviedb.org/3/movie/upcoming?include_adult=false&language=en-US&page=1&api_key=" + apiKey)
                 .get()
                 .addHeader("accept", "application/json")
                 .build();
