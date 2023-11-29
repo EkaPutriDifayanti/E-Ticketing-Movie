@@ -1,5 +1,7 @@
 package app.tiket.bioskop.src.program;
-public class daftarFilm extends JDialog{
+
+import Database.ListFilmSedangTayang;
+public class daftarFilm extends JPanel{
     private JPanel filmSedangTayang ;
     private JPanel filmAkanTayang;
 }
