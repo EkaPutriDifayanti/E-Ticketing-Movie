@@ -1,3 +1,4 @@
+
 package app.tiket.bioskop.src.program.filmList;
 
 import javax.swing.*;
@@ -45,5 +46,6 @@ public class daftarFilm extends JDialog{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
-    }
+
+}
 }
