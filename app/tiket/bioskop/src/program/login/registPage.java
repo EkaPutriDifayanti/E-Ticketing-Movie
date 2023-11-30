@@ -77,7 +77,7 @@ public class registPage extends JDialog{
     public User user;
     private User adduserToDatabase(String name,String email,String password){
         User user = null;
-        final String url = "jdbc:mysql://localhost:3307/e-tiket_bioskop";
+        final String url = "jdbc:mysql://localhost:3306/e-tiket_bioskop";
         final String username = "root";
         final String Password = "";
 
@@ -116,6 +116,10 @@ public class registPage extends JDialog{
         User user = myForm.user;
         if(user != null){
             System.out.println("Daftar Berhasil Atas nama "+user.name);
+
+            loginPage userlog = new loginPage(null);
+            User Ulog = userlog.user;
+
         }else{
             System.out.println(" Proses Daftar Dibatalkan ");
         }
