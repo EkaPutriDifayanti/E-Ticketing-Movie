@@ -1,6 +1,8 @@
 package app.tiket.bioskop.src.program.filmList;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class detailFilm {
     private JButton kodeKursiButton;
@@ -11,4 +13,18 @@ public class detailFilm {
     private JButton kodeKursiButton19;
     private JButton pilihTempatDudukButton;
     private JPanel Panel_detailFilm;
+    private JTextPane adagiumAdalahFilmDramaTextPane;
+
+    public detailFilm() {
+        pilihTempatDudukButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dispose();
+                
+            }
+        });
+    }
+
+    private void dispose() {
+    }
 }

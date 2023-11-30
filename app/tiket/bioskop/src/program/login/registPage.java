@@ -116,6 +116,10 @@ public class registPage extends JDialog{
         User user = myForm.user;
         if(user != null){
             System.out.println("Daftar Berhasil Atas nama "+user.name);
+
+            loginPage userlog = new loginPage(null);
+            User Ulog = userlog.user;
+
         }else{
             System.out.println(" Proses Daftar Dibatalkan ");
         }

@@ -12,6 +12,11 @@ public class daftarFilm extends JDialog{
     private JPanel mainlistPanel;
     private JPanel card1;
     private JPanel card2;
+    private JButton pilihButton;
+    private JButton pilihButton1;
+    private JButton pilihButton2;
+    private JButton pilihButton3;
+    private JButton pilihButton4;
 
     public daftarFilm() {
         sedangTayangButton.addActionListener(new ActionListener() {
