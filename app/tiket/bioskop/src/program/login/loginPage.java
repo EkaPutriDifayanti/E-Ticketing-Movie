@@ -1,6 +1,5 @@
 package app.tiket.bioskop.src.program.login;
 
-import javax.jws.soap.SOAPBinding;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -24,23 +23,20 @@ public class loginPage extends JDialog {
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
 
-        btnmasuk.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String email = tfEmail.getText();
-                String password = String.valueOf(pfPassword.getPassword());
+        btnmasuk.addActionListener(e -> {
+            String email = tfEmail.getText();
+            String password = String.valueOf(pfPassword.getPassword());
 
-               user = getAuthenticatedUser(email,password);
+           setUser(getAuthenticatedUser(email,password));
 
-               if(user != null){
-                   dispose();
-               }else{
-                   JOptionPane.showMessageDialog(loginPage.this,
-                           "Email atau Password anda Salah",
-                           "Coba lagi",
-                           JOptionPane.ERROR_MESSAGE);
-               }
-            }
+           if(getUser() != null){
+               dispose();
+           }else{
+               JOptionPane.showMessageDialog(loginPage.this,
+                       "Email atau Password anda Salah",
+                       "Coba lagi",
+                       JOptionPane.ERROR_MESSAGE);
+           }
         });
         btndaftar.addActionListener(new ActionListener() {
             @Override
@@ -64,7 +60,7 @@ public class loginPage extends JDialog {
         setVisible(true);
     }
 
-    public User user;
+    private User user;
     private User getAuthenticatedUser(String email, String password) {
         User user = null;
 
@@ -99,7 +95,7 @@ public class loginPage extends JDialog {
 
     public static void main(String[] args){
         loginPage loginform = new loginPage(null);
-        User user = loginform.user;
+        User user = loginform.getUser();
         if(user != null){
             System.out.println("Proses Login Berhasil!!");
             System.out.println("Nama        :"+user.name);
@@ -110,4 +106,11 @@ public class loginPage extends JDialog {
         }
     }
 
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 }
