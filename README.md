@@ -12,6 +12,3 @@ Pengguna menggunakan fitur pencarian atau menjelajahi daftar film untuk mencari 
        Pengguna dapat memilih tempat duduk yang diinginkan sesuai dengan jumlah tiket yang dipesan. Sistem memperbarui dan menampilkan ketersediaan daftar tempat duduk yang dapat atau tidak dapat dipesan oleh pengguna.
 - Membayar Tiket
         Setelah memilih tempat duduk, pengguna dapat memilih beberapa metode pembayaran, setelah itu akan dilakukan proses pembayaran. Setelah dilakukan proses pembayaran, akan ditampilkan detail tiket dan juga qr code yang akan di scan nantinya untuk mencetak tiket fisik pada saat di tempat.
-
-
-TES""""""
