@@ -60,7 +60,7 @@ public class loginPage extends JDialog {
         setVisible(true);
     }
 
-    private User user;
+    public User user;
     private User getAuthenticatedUser(String email, String password) {
         User user = null;
 
