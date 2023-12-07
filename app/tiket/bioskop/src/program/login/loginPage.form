@@ -19,6 +19,7 @@
         <properties>
           <font name="Montserrat" size="28" style="1"/>
           <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
           <text value="Masuk"/>
         </properties>
       </component>
