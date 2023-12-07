@@ -6,7 +6,7 @@
       <xy x="20" y="20" width="574" height="603"/>
     </constraints>
     <properties>
-      <background color="-1"/>
+      <background color="-15000805"/>
     </properties>
     <border type="none"/>
     <children>
@@ -16,7 +16,7 @@
         </constraints>
         <properties>
           <font name="Montserrat" size="28" style="1"/>
-          <foreground color="-7852"/>
+          <foreground color="-1"/>
           <text value="Masuk"/>
         </properties>
       </component>
@@ -27,7 +27,9 @@
           </grid>
         </constraints>
         <properties>
+          <background color="-12237499"/>
           <font size="16"/>
+          <foreground color="-1"/>
         </properties>
       </component>
       <grid id="8f409" layout-manager="GridLayoutManager" row-count="1" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -36,7 +38,7 @@
           <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <background color="-1"/>
+          <background color="-15000805"/>
         </properties>
         <border type="none"/>
         <children>
@@ -45,9 +47,9 @@
               <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-7852"/>
+              <background color="-782834"/>
               <font name="Montserrat" size="16"/>
-              <foreground color="-16777216"/>
+              <foreground color="-1"/>
               <text value="Masuk"/>
             </properties>
           </component>
@@ -57,6 +59,7 @@
             </constraints>
             <properties>
               <font name="Montserrat" size="10"/>
+              <foreground color="-1"/>
               <text value="Belum Punya Akun ?"/>
             </properties>
           </component>
@@ -75,9 +78,9 @@
               <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-7852"/>
+              <background color="-12237499"/>
               <font name="Montserrat" size="16"/>
-              <foreground color="-16777216"/>
+              <foreground color="-1"/>
               <hideActionText value="false"/>
               <text value="Daftar"/>
               <verticalAlignment value="0"/>
@@ -97,6 +100,7 @@
         </constraints>
         <properties>
           <font name="Montserrat" size="14"/>
+          <foreground color="-1"/>
           <text value="Email"/>
         </properties>
       </component>
@@ -106,6 +110,7 @@
         </constraints>
         <properties>
           <font name="Montserrat" size="14"/>
+          <foreground color="-1"/>
           <text value="Password"/>
         </properties>
       </component>
@@ -116,7 +121,9 @@
           </grid>
         </constraints>
         <properties>
+          <background color="-12237499"/>
           <font size="16"/>
+          <foreground color="-1"/>
         </properties>
       </component>
       <hspacer id="6a7e1">
@@ -150,6 +157,7 @@
         </constraints>
         <properties>
           <font name="Montserrat" size="18" style="1"/>
+          <foreground color="-1"/>
           <text value=" E-Ticketing Bioskop"/>
         </properties>
       </component>
